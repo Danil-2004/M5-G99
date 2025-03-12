@@ -61,3 +61,6 @@ body {
 #navbarNav{
     justify-content: flex-end;
 }
+img{
+    object-fit: cover;
+}
