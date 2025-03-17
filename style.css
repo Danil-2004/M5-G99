@@ -64,3 +64,6 @@ body {
 img{
     object-fit: cover;
 }
+/* *{
+    transition: 1s;
+} */

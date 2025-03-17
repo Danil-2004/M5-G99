@@ -49,5 +49,21 @@
 // window.onload=updateJumpingBlockPosition;
 // window.onresize=updateJumpingBlockPosition;
 // window.onscroll=checkScroll;
-
+// let parent=document.querySelector('#scroll');
+// let scroll=document.querySelectorAll('#scroll article');
+// scroll.forEach((elem)=>elem.remove());
+// let i=0;
+// let time=setInterval(()=>{
+//     scroll[i].classList.remove('opacity-0');
+//     Liner_Bg(scroll[i].pramentElement,flash );
+//     Liner_Bg(scroll[i],flash);
+//     setTimeout(()=>{
+//         scroll[i].classList.add('oopacity-0');
+//     },2000);     
+// setTimeout(()=>{
+//     scroll[i].remove();
+//     i<scroll.length-1?parent.append(scroll[i+1]).append(scroll[0]);
+//     i<scroll.length-1?i++:i=0;
+// },3000);
+// },3500);
 
