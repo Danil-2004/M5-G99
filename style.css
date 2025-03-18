@@ -67,10 +67,18 @@ img{
 .car-container{
     width: 100%;
     height: 75vh;
+     background-image: url('img/horror-scene-with-eerie-hall_23-2150975360.avif');
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;  
 }
 .color-options {
     margin-top: 20px;
 
+}
+#car {
+    object-fit: scale-down;
+    transform: translateY(120px);
 }
 
 .color-btn {
@@ -99,6 +107,7 @@ img{
 .color-btn[data-color="white"] {
     background-color: white;
 }
+
 /* *{
     transition: 1s;
 } */
