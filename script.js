@@ -66,4 +66,11 @@
 //     i<scroll.length-1?i++:i=0;
 // },3000);
 // },3500);
-
+document.querySelectorAll('.color-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        const color = button.getAttribute('data-color');
+        const carImage = document.getElementById('car');
+        // Измените источник изображения на основе выбранного цвета
+        carImage.src = './img/' + color + '.webp'; // Предполагается, что у вас есть изображения car-red.png, car-blue.png и т.д.
+    });
+});
