@@ -49,12 +49,13 @@ section:nth-child(odd) {
     z-index: 1;
 } */
 body {
-    background-image: url('img/textur-gas-kvas-com-tps1-p-teksturi-kovanii-karbon-8.jpg');
+    background-image: url('img/images\ \(1\).jpg');
     font-family: Arial, sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     letter-spacing: 0.1rem;
-    z-index: 1;
+
+
 }
 .row{
     justify-content: center;
@@ -73,6 +74,7 @@ img{
      background-repeat: no-repeat;
      background-size: cover;
      overflow: hidden;  
+     
 }
 .color-options {
     margin-top: 20px;
