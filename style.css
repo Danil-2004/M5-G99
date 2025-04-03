@@ -49,7 +49,7 @@ section:nth-child(odd) {
     z-index: 1;
 } */
 body {
-    background-image: url('img/images\ \(1\).jpg');
+    background-image: url('img/karbon.jpg');
     font-family: Arial, sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,7 +114,9 @@ img{
     background-color:purple;
     color: black;
 }
-
+button{
+    margin: 0 auto;
+}
 /* *{
     transition: 1s;
 } */

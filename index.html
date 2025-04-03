@@ -1,20 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BMW M5 G99</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMW M5 G99</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- Навигация -->
-<nav class="navbar navbar-expand-lg bg-secondary sticky-top">
+  <!-- Навигация -->
+  <nav class="navbar navbar-expand-lg bg-secondary sticky-top">
     <div class="container-fluid">
-            <img src="img/51-517987_1500-x-735-170-bmw-motorsport-logo-png-Photoroom.png" alt="Logo" width="250px" height="50px" class="d-inline-block align-text-top">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+      <img src="img/51-517987_1500-x-735-170-bmw-motorsport-logo-png-Photoroom.png" alt="Logo" width="250px"
+        height="50px" class="d-inline-block align-text-top">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -40,17 +43,20 @@
     </div>
   </nav>
 
-<!-- Слайдер -->
-<div id="carousel1" class="carousel slide carousel-fade">
+  <!-- Слайдер -->
+  <div id="carousel1" class="carousel slide carousel-fade">
     <div class="carousel-inner">
       <div class="carousel-item active vw-100 vh-100">
-        <img src="https://mirbmw.ru/wp-content/uploads/2024/08/bmw-m5-touring-g99-02.webp" class="d-block vw-100 vh-100 "alt="...">
+        <img src="https://mirbmw.ru/wp-content/uploads/2024/08/bmw-m5-touring-g99-02.webp"
+          class="d-block vw-100 vh-100 " alt="...">
       </div>
       <div class="carousel-item vw-100 vh-100">
-        <img src="https://mirbmw.ru/wp-content/uploads/2024/08/bmw-m5-touring-g99-01.webp" class="d-block vw-100 vh-100" alt="...">
+        <img src="https://mirbmw.ru/wp-content/uploads/2024/08/bmw-m5-touring-g99-01.webp" class="d-block vw-100 vh-100"
+          alt="...">
       </div>
       <div class="carousel-item vw-100 vh-100">
-        <img src="https://paultan.org/image/2024/08/2025-G99-BMW-M5-Touring-513-e1723774842884-1260x659.jpg" class="d-block vw-100 vh-100" alt="...">
+        <img src="https://paultan.org/image/2024/08/2025-G99-BMW-M5-Touring-513-e1723774842884-1260x659.jpg"
+          class="d-block vw-100 vh-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
@@ -62,7 +68,7 @@
       <span class="visually-hidden">Следующий</span>
     </button>
   </div>
-<!-- <div id="carSlider" class="carousel slide" data-ride="carousel">
+  <!-- <div id="carSlider" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="https://mirbmw.ru/wp-content/uploads/2024/08/bmw-m5-touring-g99-02.webp" class="d-block vw-100 vh-100" alt="BMW M5 G99 - 1">
@@ -83,38 +89,88 @@
         <span class="sr-only text-light">Следующий</span>
     </a>
 </div> -->
-<div id="reviews2" class="container my-5 text-light">
+<div class="car-power   mt-5 text-center text-light">
+  <h1>технические характеристик</h1>
+  <div class="car-power  d-flex justify-content-center">
+    <img class=" w-150 h-150 img-fluid" id="car-power" src="img/grey.webp" alt="Автомобиль">
+  </div>
+  <!-- Кнопка-триггер модального окна -->
+  <div class="d-flex justify-content-center align-items-center" style="width: 100%; height: 50px;">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      узнать технические характеристик
+    </button>
+  </div>
+
+
+  <!-- Модальное окно -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+         
+        </div>
+        <div class="modal-body text-black">
+          <u>
+          <li>Тип кузова - Универсал </li>
+          <li>Тип трансмиссии -  АКПП 8</li>
+          <li>Объем двигателя, куб.см - 4395</li>
+          <li>Марка кузова - G99</li>
+          <li>Время разгона 0-100 км/ч,с - 3.6</li>
+          <li>Максимальная скорость, км/ч - 305</li>
+          <li>Клиренс (высота дорожного просвета), мм - 118</li>
+        </u>
+        </div>
+        <div class="modal-footer">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="reviews2" class="container my-5 text-light">
     <h2 class="mx-5">О нас</h2>
-    
 
-        Добро пожаловать в мир M5 G99 – вашего надежного партнера в области высоких технологий и инновационных решений! Мы — команда профессионалов, объединенных общей целью: предоставить нашим клиентам передовые продукты и услуги, которые соответствуют самым высоким стандартам качества и эффективности.<br><br>
-        
-        Наша компания была основана с миссией сделать передовые технологии доступными для каждого. Мы специализируемся на разработке и внедрении решений, которые помогают бизнесам и частным лицам оптимизировать процессы, повышать производительность и достигать новых высот.<br><br>
-        
-        Почему выбирают нас?<br><br>
-        
-        • Инновации: Мы постоянно следим за последними трендами в мире технологий и стремимся внедрять новейшие разработки в наши продукты.<br><br>
-        
-        • Качество: Все наши решения проходят строгую проверку на соответствие высоким стандартам качества, что гарантирует надежность и долговечность.<br><br>
-        
-        • Клиентоориентированность: Мы ценим каждого клиента и готовы предложить индивидуальный подход к решению ваших задач.<br><br>
-        
-        • Опыт: Наша команда состоит из экспертов с многолетним опытом работы в индустрии, что позволяет нам находить эффективные решения для любых вызовов.<br><br>
-        
-        Мы гордимся тем, что можем предложить вам не просто продукты, а целые экосистемы, которые помогут вашему бизнесу расти и развиваться. Присоединяйтесь к нам на пути к успеху, и давайте вместе строить будущее!<br><br>
-        
-        Если у вас есть вопросы или вы хотите узнать больше о наших услугах, не стесняйтесь обращаться к нам. Мы всегда готовы помочь!</p>
-    <p>С нами вы можете быть уверены в качестве информации и профессионализме. Мы всегда готовы ответить на ваши вопросы и помочь вам выбрать идеальный автомобиль!</p>
-</div>
 
-<!-- Описание автомобиля -->
-<div class="container mt-5 text-center text-light">
+    Добро пожаловать в мир M5 G99 – вашего надежного партнера в области высоких технологий и инновационных решений! Мы —
+    команда профессионалов, объединенных общей целью: предоставить нашим клиентам передовые продукты и услуги, которые
+    соответствуют самым высоким стандартам качества и эффективности.<br><br>
+
+    Наша компания была основана с миссией сделать передовые технологии доступными для каждого. Мы специализируемся на
+    разработке и внедрении решений, которые помогают бизнесам и частным лицам оптимизировать процессы, повышать
+    производительность и достигать новых высот.<br><br>
+
+    Почему выбирают нас?<br><br>
+
+    • Инновации: Мы постоянно следим за последними трендами в мире технологий и стремимся внедрять новейшие разработки в
+    наши продукты.<br><br>
+
+    • Качество: Все наши решения проходят строгую проверку на соответствие высоким стандартам качества, что гарантирует
+    надежность и долговечность.<br><br>
+
+    • Клиентоориентированность: Мы ценим каждого клиента и готовы предложить индивидуальный подход к решению ваших
+    задач.<br><br>
+
+    • Опыт: Наша команда состоит из экспертов с многолетним опытом работы в индустрии, что позволяет нам находить
+    эффективные решения для любых вызовов.<br><br>
+
+    Мы гордимся тем, что можем предложить вам не просто продукты, а целые экосистемы, которые помогут вашему бизнесу
+    расти и развиваться. Присоединяйтесь к нам на пути к успеху, и давайте вместе строить будущее!<br><br>
+
+    Если у вас есть вопросы или вы хотите узнать больше о наших услугах, не стесняйтесь обращаться к нам. Мы всегда
+    готовы помочь!</p>
+    <p>С нами вы можете быть уверены в качестве информации и профессионализме. Мы всегда готовы ответить на ваши вопросы
+      и помочь вам выбрать идеальный автомобиль!</p>
+  </div>
+
+  <!-- Описание автомобиля -->
+  <div class="container mt-5 text-center text-light">
     <h2>Откройте для себя BMW M5 G99</h2>
-    <p>BMW M5 G99 — это идеальное сочетание мощности, стиля и технологий. Ощутите драйв и комфорт на каждом километре!</p>
-</div>
+    <p>BMW M5 G99 — это идеальное сочетание мощности, стиля и технологий. Ощутите драйв и комфорт на каждом километре!
+    </p>
+  </div>
 
-<!-- Отзывы -->
-<div id="reviews" class="container-fluid mt-5">
+  <!-- Отзывы -->
+  <div id="reviews" class="container-fluid mt-5">
     <!-- <div class="container my-5 text-light">
         <h2>Галерея</h2>
         <div class="row gallery">
@@ -137,97 +193,102 @@
                 <img src="https://mediapool.bmwgroup.com/cache/P9/202408/P90564549/P90564549-the-all-new-bmw-m5-touring-08-2024-600px.jpg" class="img-fluid" alt="BMW M5 G99">
             </div>
         </div> -->
-        <div class="container1   mt-5 text-center text-light">
-        <h1>Выберите цвет автомобиля</h1>
-        <div class="car-container  d-flex justify-content-center" >
-            <img class=" w-150 h-150 img-fluid" id="car" src="img/grey.webp" alt="Автомобиль">
-        </div>
-        <div class="color-options">
-           <button class="color-btn" data-color="grey"></button>
-            <button class="color-btn" data-color="red"></button>
-            <button class="color-btn" data-color="blue"></button>
-            <button class="color-btn" data-color="green"></button>
-            <button class="color-btn" data-color="purple"></button>
-        </div>
+    <div class="container1   mt-5 text-center text-light">
+      <h1>Выберите цвет автомобиля</h1>
+      <div class="car-container  d-flex justify-content-center">
+        <img class=" w-150 h-150 img-fluid" id="car" src="img/grey.webp" alt="Автомобиль">
+      </div>
+      <div class="color-options">
+        <button class="color-btn" data-color="grey"></button>
+        <button class="color-btn" data-color="red"></button>
+        <button class="color-btn" data-color="blue"></button>
+        <button class="color-btn" data-color="green"></button>
+        <button class="color-btn" data-color="purple"></button>
+      </div>
     </div>
-        <div id="carousel2" class="carousel slide carousel-fade">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="https://www.allcarz.ru/wp-content/uploads/2024/08/foto-m5-touring-g99_06.jpg" class="d-block vw-100 vh-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://s.auto.drom.ru/i24300/c/photos/fullsize/bmw/m5/bmw_m5_1241117.jpg" class="d-block vw-100 vh-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVOnHb8PbH6cQ9mk07-TPmnptTpdwzxhoktw&s" class="d-block vw-100 vh-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="https://www.carscoops.com/wp-content/uploads/2024/08/BMW-M5-Touring-109-scaled.jpg" class="d-block vw-100 vh-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden"></span>
-            </button>
-          </div>
+    <div id="carousel2" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.allcarz.ru/wp-content/uploads/2024/08/foto-m5-touring-g99_06.jpg"
+            class="d-block vw-100 vh-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://s.auto.drom.ru/i24300/c/photos/fullsize/bmw/m5/bmw_m5_1241117.jpg"
+            class="d-block vw-100 vh-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVOnHb8PbH6cQ9mk07-TPmnptTpdwzxhoktw&s"
+            class="d-block vw-100 vh-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.carscoops.com/wp-content/uploads/2024/08/BMW-M5-Touring-109-scaled.jpg"
+            class="d-block vw-100 vh-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
     </div>
-    <h2  class="text-center text-light">Отзывы</h2>
-    <div class="row">
-        <div class="col-md-3">
-            <div class="card mb-3">
-                <div class="card-body">
-                    <h5 class="card-title">Иван П.</h5>
-                    <p class="card-text">Прекрасный автомобиль! Отличная управляемость и мощность.</p>
-                </div>
-            </div>
+  </div>
+  <h2 class="text-center text-light">Отзывы</h2>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Иван П.</h5>
+          <p class="card-text">Прекрасный автомобиль! Отличная управляемость и мощность.</p>
         </div>
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">Мария С.</h5>
-                    <p class="card-text">Дизайн просто потрясающий! Я влюбилась в этот автомобиль.</p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h5 class="card-title">Алексей К.</h5>
-                    <p class="card-text">Лучший в своем классе. Рекомендую всем!</p>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-</div>
-<div class="container my-5">
-    
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Мария С.</h5>
+          <p class="card-text">Дизайн просто потрясающий! Я влюбилась в этот автомобиль.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">Алексей К.</h5>
+          <p class="card-text">Лучший в своем классе. Рекомендую всем!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container my-5">
+
     <h2 id="reviews3" class="text-center text-light">Обратная связь</h2>
     <form>
-        <div class="form-group">
-            <label for="name">Имя</label>
-            <input type="text" class="form-control" id="name" placeholder="Введите ваше имя" required>
-        </div>
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Введите ваш email" required>
-        </div>
-        <div class="form-group">
-            <label for="message">Сообщение</label>
-            <textarea class="form-control" id="message" rows="3" placeholder="Ваше сообщение" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Отправить</button>
+      <div class="form-group">
+        <label for="name">Имя</label>
+        <input type="text" class="form-control" id="name" placeholder="Введите ваше имя" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Введите ваш email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Сообщение</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Ваше сообщение" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Отправить</button>
     </form>
-</div>
+  </div>
 
-<footer>
+  <footer>
     <p class="text-center text-light">2023 Реклама BMW M5 G99. Все права защищены.</p>
-</footer>
-</div>
-<script src="js/bootstrap.bundle.js"></script>
-<script src="script.js"></script>
+  </footer>
+  </div>
+  <script src="js/bootstrap.bundle.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
